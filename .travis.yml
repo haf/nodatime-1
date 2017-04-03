@@ -2,7 +2,11 @@
 
 # TODO: Test against Mono as well, using matrix.include
 language: csharp
-mono: none
+
+mono:
+ - 4.8.0
+ - latest # => "stable release"
+- weekly # => "latest commits"
 dotnet: 1.0.1
 dist: trusty
 
